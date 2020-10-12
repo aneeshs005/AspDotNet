@@ -24,11 +24,11 @@ namespace Razor.Pages
         }
         public void OnPost()
         {
-            double p=Double.Parse(Request.Form["fdamount"]);
-            int t=Int32.Parse(Request.Form["period"]);
-            double r=Double.Parse(Request.Form["interest"]);
-            double si=p*(1+r*t);
-            ViewData["Amount"]=si;
+            double p = Double.Parse(Request.Form["fdamount"]);
+            int t = Int32.Parse(Request.Form["period"]);
+            double r = Double.Parse(Request.Form["interest"]);
+            double si = p * (1 + r * t);
+            ViewData["Amount"] = si;
         }
     }
 }
