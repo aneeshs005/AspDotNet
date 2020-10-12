@@ -399,3 +399,48 @@ Hello World/myWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js
 Hello World/myWebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js
 Hello World/myWebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
 Hello World/myWebApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt
+Hello World/myWebApp/.vscode/launch.json
+Hello World/myWebApp/.vscode/tasks.json
+.vscode/launch.json
+.vscode/tasks.json
+Razor/appsettings.Development.json
+Razor/appsettings.json
+Razor/.vscode/launch.json
+Razor/.vscode/tasks.json
+Razor/Properties/launchSettings.json
+Razor/wwwroot/favicon.ico
+Razor/wwwroot/css/site.css
+Razor/wwwroot/js/site.js
+Razor/wwwroot/lib/bootstrap/LICENSE
+Razor/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css
+Razor/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map
+Razor/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css
+Razor/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map
+Razor/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css
+Razor/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map
+Razor/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css
+Razor/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map
+Razor/wwwroot/lib/bootstrap/dist/css/bootstrap.css
+Razor/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map
+Razor/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css
+Razor/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map
+Razor/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js
+Razor/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map
+Razor/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Razor/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map
+Razor/wwwroot/lib/bootstrap/dist/js/bootstrap.js
+Razor/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map
+Razor/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js
+Razor/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map
+Razor/wwwroot/lib/jquery/LICENSE.txt
+Razor/wwwroot/lib/jquery/dist/jquery.js
+Razor/wwwroot/lib/jquery/dist/jquery.min.js
+Razor/wwwroot/lib/jquery/dist/jquery.min.map
+Razor/wwwroot/lib/jquery-validation/LICENSE.md
+Razor/wwwroot/lib/jquery-validation/dist/additional-methods.js
+Razor/wwwroot/lib/jquery-validation/dist/additional-methods.min.js
+Razor/wwwroot/lib/jquery-validation/dist/jquery.validate.js
+Razor/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js
+Razor/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js
+Razor/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+Razor/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt
