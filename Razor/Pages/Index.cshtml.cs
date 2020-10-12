@@ -11,7 +11,9 @@ namespace Razor.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
-
+        public double interest;
+        
+        private double myInterest;
 
         public IndexModel(ILogger<IndexModel> logger)
         {
@@ -28,7 +30,9 @@ namespace Razor.Pages
             int t = Int32.Parse(Request.Form["period"]);
             double r = Double.Parse(Request.Form["interest"]);
             double si = p * (1 + r * t);
-            ViewData["Amount"] = si;
+            ViewData["Amount"] = si;  // Returning using View Data
+            interest=si;  //Returning using Model and public field
+            myInterest=si; //Returning using Model and property
         }
     }
 }
