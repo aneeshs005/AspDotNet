@@ -1,0 +1,21 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "FD Calculator";
+}
+<div class="text-center">
+    <h2>Fixed Deposit Calculator</h2>
+    <p>It helps you calculate the maturity amount and interest earned for any FD account.</p>
+</div>
+<div class="text-left">
+    <form method="POST">
+        <label for="fdamount">FD Amount (Rs.):</label>
+        <input type="text" id="fdamount" name="fdamount" placeholder="Enter amount"/><br/><br/>
+        <label for="period">FD Period :</label>
+        <input type="text" id="period" name="period" placeholder="Enter Years"/><br/><br/>
+        <label for="interest">Interest(%)</label>
+        <input type="text" id="interest" name="interest" placeholder="0.00" /><br /><br />
+        <input type="submit" value="Calculate" /><br /><br />
+        <label>Interest=@ViewData["Amount"]</label>
+    </form>
+</div>
