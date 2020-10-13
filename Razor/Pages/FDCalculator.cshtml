@@ -16,6 +16,8 @@
         <label for="interest">Interest(%)</label>
         <input type="text" id="interest" name="interest" placeholder="0.00" /><br /><br />
         <input type="submit" value="Calculate" /><br /><br />
-        <label>Interest=@ViewData["Amount"]</label>
+        <label>Interest using ViewData=@ViewData["Amount"]</label><br /><br />
+        <label>Interest using Model=@Model.interest</label><br /><br />
+        <label>Interest using Model & Property=@Model.interest</label>
     </form>
 </div>

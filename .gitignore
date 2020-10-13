@@ -444,3 +444,6 @@ Razor/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js
 Razor/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js
 Razor/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
 Razor/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt
+Tip Calculator/appsettings.Development.json
+/bin
+/obj

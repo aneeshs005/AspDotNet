@@ -1,0 +1,22 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "FD Calculator";
+}
+<div class="text-center">
+    <h2>Fixed Deposit Calculator</h2>
+    <p>The Tip Calculator calculates tip amount for various percentages of the cost of the service, and also provides a total amount that includes the tip.</p>
+</div>
+<div class="text-left">
+    <form method="POST">
+        <label for="amount">Bill Amount (Rs.):</label>
+        <input type="text" id="amount" name="amount" placeholder="Enter amount"/><br/><br/>
+        <label for="percentage">Tip Percentage (%):</label>
+        <input type="text" id="percentage" name="percentage" placeholder="Enter percentage"/><br/><br/>
+        <label for="number">Number of People</label>
+        <input type="text" id="number" name="number" placeholder="1" /><br /><br />
+        <input type="submit" value="Calculate" /><br /><br />
+        <label>Tip Per Person: @ViewData["individualTip"]</label><br />
+        <label>Total Per Person: @ViewData["individualTotal"]</label>
+    </form>
+</div>
