@@ -447,3 +447,5 @@ Razor/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt
 Tip Calculator/appsettings.Development.json
 /bin
 /obj
+Tip Calculator/.vscode/launch.json
+Tip Calculator/.vscode/tasks.json
