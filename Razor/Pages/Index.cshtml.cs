@@ -14,6 +14,16 @@ namespace Razor.Pages
         public double interest;
         
         private double myInterest;
+        public double MyInterest{
+            get
+            {
+                return myInterest;
+            }
+            set
+            {
+                myInterest=value;
+            }
+        }
 
         public IndexModel(ILogger<IndexModel> logger)
         {
@@ -32,7 +42,7 @@ namespace Razor.Pages
             double si = p * (1 + r * t);
             ViewData["Amount"] = si;  // Returning using View Data
             interest=si;  //Returning using Model and public field
-            myInterest=si; //Returning using Model and property
+            MyInterest=si; //Returning using Model and property
         }
     }
 }

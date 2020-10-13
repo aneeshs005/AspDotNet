@@ -21,5 +21,15 @@ namespace Tip_Calculator.Pages
         {
 
         }
+        public void OnPost()
+        {
+            double amt=Double.Parse(Request.Form["amount"]);
+            double percntg=Double.Parse(Request.Form["percentage"]);
+            int num=Int32.Parse(Request.Form["number"]);
+            double tip=(amt*percntg)/(100*num);
+            double total=(amt+tip*num)/num;
+            ViewData["individualTip"]=tip;
+            ViewData["individualTotal"]=total;
+        }
     }
 }
