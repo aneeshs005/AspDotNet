@@ -449,3 +449,7 @@ Tip Calculator/appsettings.Development.json
 /obj
 Tip Calculator/.vscode/launch.json
 Tip Calculator/.vscode/tasks.json
+BookMyShow/.vscode/launch.json
+BookMyShow/.vscode/tasks.json
+BookMyShow/bin
+BookMyShow/obj
