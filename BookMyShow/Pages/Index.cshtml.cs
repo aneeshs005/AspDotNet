@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,10 +9,13 @@ using Microsoft.Extensions.Logging;
 
 namespace BookMyShow.Pages
 {
+    //On first page load the app goes to the OnGet Method and then to Get Form and prints already active text file
+    //After clicking submit the app goes to onPost method updates the string,
+    //goes to Get Form and prints the string again with the new added task
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
-
+        public string[] Todolist{get; set;}
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
@@ -19,7 +23,13 @@ namespace BookMyShow.Pages
 
         public void OnGet()
         {
-
+            Todolist = System.IO.File.ReadAllLines("Text.txt");
+        }
+        public void OnPost()
+        {
+            string task = Request.Form["newtask"];
+            System.IO.File.AppendAllText("Text.txt", task + Environment.NewLine);
+            Todolist = System.IO.File.ReadAllLines("Text.txt");
         }
     }
 }
